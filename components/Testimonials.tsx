@@ -10,7 +10,7 @@ const testimonialsData = [
     name: "John Doe",
     position: "Software Engineer at TechCorp",
     feedback:
-      "Waqar's development skills are incredible. The eCommerce site he built was not only functional but also easy to use. He really understands user experience and front-end development.",
+      "Waqar development skills are incredible. The eCommerce site he built was not only functional but also easy to use. He really understands user experience and front-end development.",
   },
   {
     name: "Jane Smith",

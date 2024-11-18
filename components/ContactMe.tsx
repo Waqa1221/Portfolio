@@ -31,7 +31,7 @@ function Footer() {
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.6, delay: 0.2 }}
             >
-              I'm a front-end developer specializing in React, Next.js, and
+              I am a front-end developer specializing in React, Next.js, and
               Tailwind CSS. I create responsive, user-friendly websites with a
               focus on performance and accessibility.
             </motion.p>
@@ -102,7 +102,6 @@ function Footer() {
             </motion.div>
           </div>
         </motion.div>
-
         {/* Footer Bottom Section */}
         <motion.div
           className="border-t border-gray-600 mt-4 pt-4 text-center text-sm text-gray-600 dark:text-gray-400"
