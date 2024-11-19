@@ -79,7 +79,7 @@ function Testimonials() {
                   {testimonial.name}
                 </motion.h2>
                 <p className="text-sm text-gray-500 dark:text-gray-400">
-                  {testimonial.position}
+                  {`"${testimonial.position}"`}
                 </p>
               </div>
             </div>
@@ -91,7 +91,7 @@ function Testimonials() {
               animate={{ opacity: 1, x: 0 }} // Animate to normal position
               transition={{ duration: 0.5 }}
             >
-              {`"{testimonial.feedback}"`}
+              {testimonial.feedback}
             </motion.p>
 
             <div className="flex gap-2 mt-4">
