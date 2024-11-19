@@ -110,7 +110,7 @@ function Footer() {
           transition={{ duration: 0.5, delay: 0.8 }}
         >
           <p>
-            &copy; {new Date().getFullYear()} Waqar's Portfolio. All rights
+            &copy; {new Date().getFullYear()} Waqar&apos;s Portfolio. All rights
             reserved.
           </p>
         </motion.div>
